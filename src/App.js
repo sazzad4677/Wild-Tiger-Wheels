@@ -26,7 +26,7 @@ function App() {
         <PrivateRoute exact path="/destination">
           <Destination/>
         </PrivateRoute>
-        <PrivateRoute path="/destination/:id">
+        <PrivateRoute path="/destination/:vehicle_type">
           <Destination/>
         </PrivateRoute>
         <Route path="/blog">

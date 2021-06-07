@@ -32,7 +32,7 @@ const Header = (props) => {
                         <NavLink to="/blog" className="nav-item" > Blog </NavLink>
                         <NavLink to="/contact" className="nav-item" > Contact </NavLink>
                         {
-                            isLoggedIn && <NavLink to="/" className="nav-item" > {name} </NavLink>
+                            isLoggedIn && <NavLink to="/" className="nav-item text-primary" > {loggedIn.name||loggedIn.displayName } </NavLink>
                         }
                     </Nav>
                     {isLoggedIn

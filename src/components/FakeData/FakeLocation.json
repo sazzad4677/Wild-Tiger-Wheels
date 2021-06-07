@@ -9,79 +9,79 @@
         "price":30
     },
     {
-        "id": 1,
+        "id": 2,
         "vehicle_type": "Bike",
         "vehicle_image": "https://i.imgur.com/sKd6crk.png",
         "total_person": 2,
-        "from": "Madaripur",
-        "to": "Baliakandi",
-        "price":30
-    },
-    {
-        "id": 1,
-        "vehicle_type": "Bike",
-        "vehicle_image": "https://i.imgur.com/sKd6crk.png",
-        "total_person": 2,
-        "from": "Ghorashal",
-        "to": "Shibpur",
-        "price":30
-    },
-    {
-        "id": 1,
-        "vehicle_type": "Bike",
-        "vehicle_image": "https://i.imgur.com/sKd6crk.png",
-        "total_person": 2,
-        "from": "Ghorashal",
-        "to": "Shibpur",
-        "price":30
-    },
-    {
-        "id": 2,
-        "vehicle_type": "Bus",
-        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
-        "total_person": 50,
-        "from": "Madaripur",
-        "to": "Baliakandi",
-        "price":30
-    },
-    {
-        "id": 2,
-        "vehicle_type": "Bus",
-        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
-        "total_person": 50,
-        "from": "Madaripur",
-        "to": "Baliakandi",
-        "price":30
-    },
-    {
-        "id": 2,
-        "vehicle_type": "Bus",
-        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
-        "total_person": 50,
         "from": "Madaripur",
         "to": "Baliakandi",
         "price":30
     },
     {
         "id": 3,
-        "vehicle_type": "Car",
-        "vehicle_image": "https://i.imgur.com/5jmZ3pf.png",
-        "total_person": 100,
-        "from": "Karatia",
-        "to": "Basail",
-        "price":30
-    },
-    {
-        "id": 3,
-        "vehicle_type": "Car",
-        "vehicle_image": "https://i.imgur.com/5jmZ3pf.png",
-        "total_person": 100,
-        "from": "Karatia",
-        "to": "Basail",
+        "vehicle_type": "Bike",
+        "vehicle_image": "https://i.imgur.com/sKd6crk.png",
+        "total_person": 2,
+        "from": "Ghorashal",
+        "to": "Shibpur",
         "price":30
     },
     {
         "id": 4,
+        "vehicle_type": "Bike",
+        "vehicle_image": "https://i.imgur.com/sKd6crk.png",
+        "total_person": 2,
+        "from": "Ghorashal",
+        "to": "Shibpur",
+        "price":30
+    },
+    {
+        "id": 5,
+        "vehicle_type": "Bus",
+        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
+        "total_person": 50,
+        "from": "Madaripur",
+        "to": "Baliakandi",
+        "price":30
+    },
+    {
+        "id": 6,
+        "vehicle_type": "Bus",
+        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
+        "total_person": 50,
+        "from": "Madaripur",
+        "to": "Baliakandi",
+        "price":30
+    },
+    {
+        "id": 7,
+        "vehicle_type": "Bus",
+        "vehicle_image": "https://i.imgur.com/85zBPu6.png",
+        "total_person": 50,
+        "from": "Madaripur",
+        "to": "Baliakandi",
+        "price":30
+    },
+    {
+        "id": 8,
+        "vehicle_type": "Car",
+        "vehicle_image": "https://i.imgur.com/5jmZ3pf.png",
+        "total_person": 100,
+        "from": "Karatia",
+        "to": "Basail",
+        "price":30
+    },
+    {
+        "id": 9,
+        "vehicle_type": "Car",
+        "vehicle_image": "https://i.imgur.com/5jmZ3pf.png",
+        "total_person": 100,
+        "from": "Karatia",
+        "to": "Basail",
+        "price":30
+    },
+    {
+        "id": 10,
         "vehicle_type": "Train",
         "vehicle_image": "https://i.imgur.com/Zf6ozkU.png",
         "total_person": 100,
@@ -90,7 +90,7 @@
         "price":30
     },
     {
-        "id": 5,
+        "id": 11,
         "vehicle_type": "Chevrolet",
         "vehicle_image": "http://dummyimage.com/154x100.png/ff4444/ffffff",
         "total_person": 90,
@@ -98,7 +98,7 @@
         "to": "Sherman"
     },
     {
-        "id": 6,
+        "id": 12,
         "vehicle_type": "Jeep",
         "vehicle_image": "http://dummyimage.com/178x100.png/5fa2dd/ffffff",
         "total_person": 5,
@@ -106,7 +106,7 @@
         "to": "Westridge"
     },
     {
-        "id": 7,
+        "id": 13,
         "vehicle_type": "Volvo",
         "vehicle_image": "http://dummyimage.com/157x100.png/ff4444/ffffff",
         "total_person": 46,
@@ -114,7 +114,7 @@
         "to": "Parkside"
     },
     {
-        "id": 8,
+        "id": 14,
         "vehicle_type": "Mazda",
         "vehicle_image": "http://dummyimage.com/107x100.png/cc0000/ffffff",
         "total_person": 5,
@@ -122,7 +122,7 @@
         "to": "Packers"
     },
     {
-        "id": 9,
+        "id": 15,
         "vehicle_type": "Mercury",
         "vehicle_image": "http://dummyimage.com/176x100.png/cc0000/ffffff",
         "total_person": 86,
@@ -130,7 +130,7 @@
         "to": "Northridge"
     },
     {
-        "id": 10,
+        "id": 16,
         "vehicle_type": "Buick",
         "vehicle_image": "http://dummyimage.com/123x100.png/ff4444/ffffff",
         "total_person": 77,

@@ -19,6 +19,7 @@ if (!firebase.apps.length) {
 
 const Login = () => {
   const [loggedIn, setLoggedIn] = useContext(userContext);
+
   let history = useHistory();
   let location = useLocation();
   let { from } = location.state || { from: { pathname: "/" } };
@@ -65,8 +66,8 @@ const Login = () => {
           createdUser.email = res.email;
           setUser(createdUser);
           setLoggedIn(createdUser);
-          history.replace(from);
           updateUserName(user.name);
+          history.replace(from); 
         })
         .catch((error) => {
           const createdUser = { ...user };
@@ -83,6 +84,7 @@ const Login = () => {
         .signInWithEmailAndPassword(user.email, user.password)
         .then((res) => {
           const loginUser = { ...user };
+          loginUser.name=res.user.displayName;
           loginUser.isLoggedIn = true;
           loginUser.error = "";
           setUser(loginUser);
@@ -108,7 +110,7 @@ const Login = () => {
       .then((result) => {
         const createdUser = { ...user };
         createdUser.isLoggedIn = true;
-        createdUser.email = result.email;
+        createdUser.name = result.user.displayName;
         setUser(createdUser);
         setLoggedIn(createdUser);
         updateUserName(result.user.displayName);
@@ -132,7 +134,7 @@ const Login = () => {
       .then((result) => {
         const createdUser = { ...user };
         createdUser.isLoggedIn = true;
-        createdUser.email = result.email;
+        createdUser.name = result.user.displayName;
         setUser(createdUser);
         setLoggedIn(createdUser);
         updateUserName(result.user.displayName);
@@ -151,14 +153,8 @@ const Login = () => {
     const user = firebase.auth().currentUser;
     user
       .updateProfile({
-        display_name: { name },
+        displayName:  name ,
       })
-      .then(function () {
-        console.log("user name updated successfully");
-      })
-      .catch(function (error) {
-        console.log(error.message);
-      });
   };
 
   return (

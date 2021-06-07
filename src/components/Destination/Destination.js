@@ -6,9 +6,11 @@ import map from '../../images/Map.png'
 import { Link, useParams } from 'react-router-dom';
 import FakeLocation from '../FakeData/FakeLocation.json'
 import peopleIcon from "../../images/peopleicon.png"
+import Map from "../Map/Map"
+
 
 const Destination = () => {
-    const { id } = useParams();
+    const { vehicle_type } = useParams();
     //state for search button
     const [searched, setSearched] = useState(false);
     //state for data load
@@ -23,9 +25,9 @@ const Destination = () => {
     const [matchData, setMatchData] = useState([])
     //load data
     useEffect(() => {
-        const allData = FakeLocation.filter((x) => x.id === Number(id));
+        const allData = FakeLocation.filter((x) => x.vehicle_type === vehicle_type);
         setVehicle(allData);
-    }, [id]);
+    }, [vehicle_type]);
 
     const pickData = (e) => {
         const locationInfo = { ...data }
@@ -34,7 +36,6 @@ const Destination = () => {
     }
     const handelSubmit = (e) => {
         setSearched(true);
-        e.preventDefault();
         const matching = vehicles.filter(vehicle => vehicle.from == data.from && vehicle.to == data.to)
         setMatchData(matching);
         if(matching.length === 0) {
@@ -43,6 +44,7 @@ const Destination = () => {
         else{
             data.error = "";
         }
+        e.preventDefault();
     }
 
     return (
@@ -78,7 +80,7 @@ const Destination = () => {
                                             <Card className="w-100 mt-3">
                                                 <Row className="no-gutters">
                                                     <Card.Body className="">
-                                                        <div className="col-sm-12 d-flex">
+                                                        <div key={x.id} className="col-sm-12 d-flex">
                                                             <Card.Img src={x.vehicle_image} alt="vehicle image" className="vehicle-image" />
                                                             <Card.Title className="ml-3 mt-2">{x.vehicle_type}</Card.Title>
                                                             <Card.Img src={peopleIcon} alt="people icon" className="person" />
@@ -93,13 +95,11 @@ const Destination = () => {
                                     )
                                 }
                             </div>}
-
-
-
                     </div>
                 </div>
                 <div className="col-md-8">
-                    <img src={map} alt="" />
+                    {/* <img src={map} alt="" /> */}
+                    <Map></Map>
                 </div>
             </Container>
         </div>
