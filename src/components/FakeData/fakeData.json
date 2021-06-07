@@ -1,0 +1,42 @@
+[
+    {   "id" : 1,
+        "vehicle_type": "Bike",
+        "vehicle_image": "https://i.imgur.com/sKd6crk.png"
+    },
+    {   "id":2,
+        "vehicle_type": "Bus",
+        "vehicle_image": "https://i.imgur.com/85zBPu6.png"
+    },
+    {   "id":3,
+        "vehicle_type": "Car",
+        "vehicle_image": "https://i.imgur.com/5jmZ3pf.png"
+    },
+    {   "id":4,
+        "vehicle_type": "Train",
+        "vehicle_image": "https://i.imgur.com/Zf6ozkU.png"
+    },
+    {   "id":5,
+        "vehicle_type": "T100",
+        "vehicle_image": "http://dummyimage.com/247x100.png/ff4444/ffffff"
+    },
+    {   "id":6,
+        "vehicle_type": "S2000",
+        "vehicle_image": "http://dummyimage.com/190x100.png/cc0000/ffffff"
+    },
+    {   "id":7,
+        "vehicle_type": "GTI",
+        "vehicle_image": "http://dummyimage.com/149x100.png/ff4444/ffffff"
+    },
+    {   "id":8,
+        "vehicle_type": "Swift",
+        "vehicle_image": "http://dummyimage.com/244x100.png/ff4444/ffffff"
+    },
+    {   "id":9,
+        "vehicle_type": "Aerostar",
+        "vehicle_image": "http://dummyimage.com/197x100.png/dddddd/000000"
+    },
+    {   "id":10,
+        "vehicle_type": "900",
+        "vehicle_image": "http://dummyimage.com/177x100.png/dddddd/000000"
+    }
+]

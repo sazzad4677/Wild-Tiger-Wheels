@@ -1,0 +1,31 @@
+.destination {
+  border: 1px #efefef;
+  border-radius: 8px;
+  background-color: #efefef !important ;
+}
+.label {
+  color: #626262;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top-card {
+   border: 1px solid #ff6e40;
+   border-radius: 20px;
+  background-color: #ff6e40;
+}
+.location {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.person{
+    width:20% !important
+}
+
+.price{
+    font-family: "Montserrat", sans-serif;
+}
+.vehicle-image{
+
+    height: 50px !important;
+    width: 50px !important;
+}

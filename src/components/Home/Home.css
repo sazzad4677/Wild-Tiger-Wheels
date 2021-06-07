@@ -1,4 +1,8 @@
-.home-bg{
-    background-image: url("../../images/Bg.png");
-    /* background-color: #cc2e2e; */
+.home-bg {
+  background-image: url("../../images/Bg.png");
+  background-size: cover;
+  background-position: 100% 100%;
+  background-repeat:no-repeat;
+  min-height: 40%;
+  height: 100vh;
 }

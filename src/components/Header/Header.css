@@ -1,25 +1,33 @@
-.brand-name{
+.brand-name {
     color: rgb(0, 0, 0);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
+
 .brand-name:hover {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-.nav-content{
+
+.nav-content {
     margin-right: 20px;
 }
-.nav-item{
+
+.nav-item {
     font-family: Montserrat;
-    color: #2D2D2D;
-    /* font-weight: 100; */
+    color: #494747;
+    text-decoration: none;
+    margin: 20px;
+}
+.nav-item:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
 
-.login-btn{
+.login-btn {
     margin: auto;
     background-color: #FF6E40 !important;
-    border: none !important;
+    border: none !important;   
 }

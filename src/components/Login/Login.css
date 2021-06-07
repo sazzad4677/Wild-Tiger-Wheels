@@ -1,0 +1,62 @@
+.login-form {
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px !important;
+}
+
+.login-group {
+    border-bottom: 1px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.text-field::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    /* Firefox */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.text-field:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.text-field::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #FF6E40 !important;
+    border: none !important;
+}
+
+.authenticate {
+    border: 1px solid #c7c7c7;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #ffffff !important;
+}
+.create-account-btn{
+    color: #FF6E40;
+    text-decoration: underline;
+    border: none !important;
+    background-color: Transparent!important;
+}
