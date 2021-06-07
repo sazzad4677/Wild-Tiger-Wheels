@@ -86,14 +86,16 @@ const Destination = () => {
                                                             <Card.Img src={peopleIcon} alt="people icon" className="person" />
                                                             <Card.Text className="ml-5 price">${x.price}</Card.Text>
                                                         </div>
-
                                                     </Card.Body>
                                                 </Row>
+                                                
                                             </Card>
                                         </div>
-
                                     )
                                 }
+                                <Button onClick={() =>setSearched(false)} variant="primary" type="submit" className="submit-btn mb-3 mt-2">
+                                    Go Back
+                                </Button>
                             </div>}
                     </div>
                 </div>
