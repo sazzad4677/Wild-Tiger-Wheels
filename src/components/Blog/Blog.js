@@ -6,7 +6,6 @@ import NoMatch from '../NoMatch/NoMatch';
 const Blog = () => {
     return (
         <div>
-            <Header></Header>
             <NoMatch></NoMatch>
         </div>
     );

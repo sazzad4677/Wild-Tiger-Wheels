@@ -5,12 +5,13 @@
 /.pnp
 .pnp.js
 
+.firebase/
 # testing
 /coverage
 
 # production
 /build
-
+src/components/firebaseConfig/
 # misc
 .DS_Store
 .env.local

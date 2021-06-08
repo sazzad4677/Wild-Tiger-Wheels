@@ -5,7 +5,6 @@ import NoMatch from '../NoMatch/NoMatch';
 const Contact = () => {
     return (
         <div>
-            <Header></Header>
             <NoMatch></NoMatch>
         </div>
     );

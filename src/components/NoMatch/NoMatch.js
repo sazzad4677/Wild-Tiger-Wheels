@@ -2,10 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
 
+
 const NoMatch = () => {
     return (
         <div>
-            <section>
+            <Header/>
+            <section className="main-div">
                 <div className="text-center">
                     <div>
                         <h1 className="text-danger">404</h1>

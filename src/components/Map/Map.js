@@ -4,7 +4,7 @@ const Map = () => {
   const [map, setMap] = useState();
 
   useEffect(() => {
-    const mapUrl = `https://maps.googleapis.com/maps/api/geocode/json?latlng=40.714224,-73.961452&key=AIzaSyBQ4DKD-8BrKCXk5JwSrCZVVtYxQL0hHyo`;
+    const mapUrl = `https://www.google.com/maps/embed/v1/place?key=AIzaSyBQ4DKD-8BrKCXk5JwSrCZVVtYxQL0hHyo&q=Space+Needle,Seattle+WA"`;
    
     setMap(mapUrl);
   }, []);
